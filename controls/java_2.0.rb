@@ -12,6 +12,6 @@ control 'java-2.0' do
 
   describe java_info(java_path) do
     it{ should exist }
-    its(:version){ should match '1.7'}
+    its(:version){ should match '1.8'}
   end
 end
